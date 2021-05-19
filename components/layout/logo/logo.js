@@ -3,7 +3,7 @@ import { LogoContainer } from "./logo.styles"
 const Logo = () => {
     return (
         <LogoContainer>
-            Chintu's Blog
+            Johnny's Blog
         </LogoContainer>
     )
 }

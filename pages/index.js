@@ -8,7 +8,7 @@ export default function Home({posts}) {
   return (
     <div>
       <Head>
-        <title>Chintu's Blog</title>
+        <title>Johnny's Blog</title>
         <meta 
           name="description"
           content="Post about programming and web dev"
