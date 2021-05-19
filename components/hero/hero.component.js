@@ -13,7 +13,7 @@ const Hero = () => {
                 />
             </HeroImage>
             <HeroTitle>
-                Hi, Im Chintu
+                Hi, Im Johnny
             </HeroTitle>
             <HeroPara>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur facilis minima quam voluptas ipsa rerum soluta sed! Suscipit architecto, possimus esse ea accusamus harum beatae laboriosam ratione ullam voluptatibus ipsam.
