@@ -58,7 +58,7 @@ const GlobalStyle = createGlobalStyle`
 
     a {
         text-decoration: none;
-        cursor: auto
+        cursor: pointer;
     }
 
     button {

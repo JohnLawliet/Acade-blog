@@ -1,8 +1,11 @@
 import Head from "next/head"
+import Disqus from "../../components/disqus/disqus.component"
 import PostContent from "../../components/posts/post-detail/content.component"
 import { getFilesInDir, getPostData } from "../../lib/posts-util"
 
-const PostContentPage = ({post}) => {
+
+const PostContentPage = ({post}) => {   
+
     return (
         <div>
             <Head>
@@ -10,6 +13,7 @@ const PostContentPage = ({post}) => {
                 <meta name="description" content={post.excerpt}/>
             </Head>
             <PostContent post={post}/>
+            <Disqus post={post}/>
         </div>
     )
 }
